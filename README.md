@@ -47,7 +47,7 @@ A modern, feature-rich application to display your current Notion page activity 
 ## 🚀 Installation
 
 ### Option 1: Using Installer (Recommended)
-1. Download `NotionPresence_Installer.exe`
+1. [Download](https://github.com/CrypterENC/Notion-Rich-Presence/releases/tag/v1.0.1) `NotionPresence_Installer_v1.0.1.exe`
 2. Run the installer
 3. Optionally enable "Run on system startup"
 4. Launch the app
