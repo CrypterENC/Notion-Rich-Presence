@@ -1,0 +1,42 @@
+QDialog {
+    background: linear-gradient(135deg, #0a0e27 0%, #0f1535 100%);
+}
+#titleBar {
+    background: rgba(10, 14, 39, 0.95);
+    border-bottom: 1px solid rgba(99, 102, 241, 0.2);
+}
+QLabel {
+    color: #e8f0ff;
+    font-family: 'Segoe UI', sans-serif;
+}
+QLineEdit {
+    background: rgba(26, 31, 58, 0.7);
+    border: 2px solid #2d3561;
+    border-radius: 12px;
+    padding: 12px;
+    color: #ffffff;
+    font-size: 13px;
+    selection-background-color: #6366f1;
+}
+QLineEdit:focus {
+    border: 2px solid #6366f1;
+    background: rgba(34, 40, 68, 0.9);
+}
+QLineEdit::placeholder {
+    color: rgba(232, 240, 255, 0.4);
+}
+QPushButton {
+    background: qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 #6366f1, stop:1 #4f46e5);
+    border: none;
+    border-radius: 12px;
+    padding: 12px 20px;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 13px;
+}
+QPushButton:hover {
+    background: qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 #7c3aed, stop:1 #6366f1);
+}
+QPushButton:pressed {
+    background: qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 #4338ca, stop:1 #3730a3);
+}
