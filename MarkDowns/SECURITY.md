@@ -80,7 +80,7 @@ The following sensitive fields are encrypted in `config.json`:
 **Before Encryption:**
 ```json
 {
-  "notion_token": "ntn_fake_token_asdjhkbKJGHBAKSDHbkJ",
+  "notion_token": "ntn_fake_token_asdjhkbKJGHBAKSDHbkJasdasdasdasd",
   "id": "293dd033-7057-8022-9d38-c7f477dda3d5",
   "client_id": "12fakediscordclientid1123"
 }
